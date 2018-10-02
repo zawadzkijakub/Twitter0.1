@@ -1,0 +1,181 @@
+html, body, section {
+  height: 100%;
+}
+
+body {
+  color: #9d9ea0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.25rem;
+  line-height: 150%;
+  text-align: center;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h4 {
+  font-size: 1.75rem;
+  margin: 0 0 0.75rem 0;
+}
+
+.headerlog {
+  font-size: 1.75rem;
+  margin: 0 0 0.75rem 0;
+  color: rgba(72, 73, 80, 0.83)
+
+}
+
+/* Pattern styles */
+.container {
+  display: flex;
+}
+
+.left-half {
+  background: url('../images/background.jpg');
+  background-size:contain;
+  background-size: 100% 100%;
+
+
+  flex: 1;
+  padding: 1rem;
+}
+
+.right-half {
+  background-color: #edeef2;
+  flex: 1;
+  padding: 1rem;
+}
+
+.sign {
+  font-size: 0.75rem;
+  margin: 0 0 0.75rem 0;
+  color: rgba(72, 73, 80, 0.83)
+}
+
+input[name="login"] {
+  border: 0;
+  outline: ActiveBorder;
+  width: 320px;
+  height: 60px;
+  border-radius: 10px;
+  color: #666666;
+  cursor: pointer;
+  background-color: #edeef2;
+
+}
+
+input[name="login"]:hover {
+  background: rgba(233, 233, 240, 0.83);
+}
+input[type="password"] {
+  border: 0;
+  outline: ActiveBorder;
+  width: 320px;
+  height: 60px;
+  border-radius: 10px;
+  color: #666666;
+  cursor: pointer;
+  background-color: #edeef2;
+  transition: background 0.3s ease-in-out;
+
+}
+
+input[type="password"]:hover {
+  background: rgba(233, 233, 240, 0.83);
+}
+
+input[type="email"] {
+  border: 0;
+  outline: ActiveBorder;
+  width: 320px;
+  height: 60px;
+  border-radius: 10px;
+  color: #666666;
+  cursor: pointer;
+  background-color: #edeef2;
+  transition: background 0.3s ease-in-out;
+
+}
+
+input[type="email"]:hover {
+  background: rgba(233, 233, 240, 0.83);
+}
+
+
+input,
+input::-webkit-input-placeholder {
+    font-size: 15px;
+    line-height: 3;
+}
+
+input[type="submit"] {
+  background: rgba(53, 77, 233, 0.78);
+  border: 0;
+  width: 320px;
+  height: 40px;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+  line-height: 0;
+}
+input[type="submit"]:hover {
+  background: rgba(29, 15, 215, 0.83);
+}
+
+
+#showpassword {
+  font-size: 0.55rem;
+  text-align: center;
+  color: rgba(72, 73, 80, 0.83)
+}
+
+input[type="checkbox"] {
+  opacity: 0;
+}
+
+input[type="text"] {
+  border: 0;
+  outline: ActiveBorder;
+  width: 320px;
+  height: 60px;
+  border-radius: 10px;
+  color: #666666;
+  cursor: pointer;
+  background-color: #edeef2;
+  transition: background 0.3s ease-in-out;
+
+}
+
+input[type="text"]:hover {
+  background: rgba(233, 233, 240, 0.83);
+}
+
+#emailhide {
+  display: none
+}
+
+.mainhead {
+  background-color: #edeef2;
+  text-align: right;
+  font-size: 12px;
+  font-family: 'Roboto', sans-serif;
+}
+
+#newt {
+  background: rgba(53, 77, 233, 0.78);
+  border: 0;
+  width: 20px;
+  height: 40px;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+  line-height: 0;
+}
+#newt :hover {
+  background: rgba(29, 15, 215, 0.83);
+}

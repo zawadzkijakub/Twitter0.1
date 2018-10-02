@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% block content %}
+
+{% if user.is_authenticated %}
+<div>
+    <table>
+        <tr>
+            <th>User</th>
+            <th>Content</th>
+            <th>Date</th>
+        </tr>
+        {% for one_tweet in all_tweet %}
+        <tr>
+            <th>{{ one_tweet.dependence}}</th>
+            <th>{{ one_tweet.content }}</th>
+            <th>{{ one_tweet.creation_date }} </th>
+        </tr>
+        {% endfor %}
+    </table>
+</div>
+    <a href= "{% url 'addtweet' %}"> Add new tweet </a>
+
+{% else %}
+
+{% endif %}
+{% endblock %}
